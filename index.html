@@ -76,14 +76,14 @@ function generateMessage(){
   setTimeout(()=>{msg.remove();},3000);
 }
 
-function generateDiya()
+function generateDiya(){
   const diya=document.createElement('div');
   diya.classList.add('diya');
   diya.style.left=Math.random()*90+'vw';
   diya.style.animationDuration=(3+Math.random()*3)+'s';
   document.body.appendChild(diya);
   setTimeout(()=>{diya.remove();},6000);
-
+}
 
 function generateConfetti(){
   const confetti=document.createElement('div');
